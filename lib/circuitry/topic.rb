@@ -29,7 +29,8 @@ module Circuitry
     end
 
     def name
-      @name ||= arn.split(':').last
+      #@name ||= arn.split(':').last
+      "foo"
     end
 
     def ==(other)
